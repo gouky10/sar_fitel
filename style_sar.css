@@ -1,0 +1,143 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+.jumbotron {
+    padding: 48px 32px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+#main_menu {
+    margin-top: 20px;
+    background-color: rgba(248, 248, 248, 0.7);
+    background-image: none;
+}
+
+#main_menu.top_menu {
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgba(248, 248, 248, 1);
+    z-index: 50;
+}
+#intro {
+    min-height: 110%;
+    background: url("intro.jpg") no-repeat scroll center;
+    background-size: cover;
+    
+}
+#title_intro {
+    color: white;
+    border-radius: 25px;
+}
+#que_es {
+    background-color: #94C2D2;
+    min-height: 100%;
+    padding: 7% 0 10% 0;
+}
+
+#que_es p {
+    font-size: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+}
+
+#que_es .container {
+    padding: 3rem 0;
+}
+
+#paralax_telefonia {
+    background-image: url("servicio_telefonia.jpg");
+
+    min-height: 400px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#solicita {
+    background-color: E7933D;
+    min-height: 80%;
+    padding: 7% 0 10% 0;
+}
+
+.container .row {
+    margin-top: 20px;
+}
+
+#paralax_internet {
+    background-image: url("servicio_internet.jpg");
+
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#faq {
+    background-color: B5D663;
+    min-height: 100%;
+    padding: 7% 0 10% 0;
+}
+
+#paralax_contacto {
+    background-image: url("contactanos.jpg");
+
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#googleMap {
+    height: 400px;
+    width:100%;
+    margin-bottom: 10%;
+}
+
+#logos .img-responsive {
+    margin: 0 auto;
+    max-height: 70px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+/* Extra small devices (767px and down) */
+@media (max-width: 767px) {
+    .row.vertical-align {
+        display: block; /* Turn off the flexible box layout */
+    }
+}
+
+.img-responsive.center {
+    margin: 0 auto;
+}
+
+.sar_accion {
+    margin: 10px;
+    padding: 20px;
+}
+.sar_accion img{
+    max-height: 250px;
+}

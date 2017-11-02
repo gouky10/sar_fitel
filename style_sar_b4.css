@@ -1,0 +1,103 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+#main_menu {
+    margin-top: 10px;
+    background-color: rgba(248, 248, 248, 0.7)!important;
+    background-image: none;
+}
+#intro {
+    min-height: 100%;
+    background: url("intro.jpg") no-repeat scroll center;
+    background-size: cover;
+}
+#title_intro {
+    color: white;
+    border-radius: 25px;
+}
+#que_es {
+    background-color: #72C2D2;
+    min-height: 100%;
+}
+
+#que_es p {
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#que_es .container {
+    padding: 3rem 0;
+}
+
+#paralax_telefonia {
+    background-image: url("servicio_telefonia.jpg");
+
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#solicita {
+    background-color: E7933D;
+    min-height: 80%;
+    padding: 5% 0 10% 0!important;
+}
+
+.container .row {
+    margin-top: 20px;
+}
+
+#paralax_internet {
+    background-image: url("servicio_internet.jpg");
+
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#faq {
+    background-color: B5D663;
+    min-height: 100%;
+    
+}
+
+#paralax_contacto {
+    background-image: url("contactanos.jpg");
+
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#googleMap {
+    height: 400px;
+    width:100%;
+    margin-bottom: 10%;
+}
+
+
+#logos .img-fluid {
+    max-height: 70px;
+}
+
+.sar_accion {
+    margin: 10px;
+    padding: 20px;
+}
+.sar_accion img{
+    max-height: 250px;
+}
