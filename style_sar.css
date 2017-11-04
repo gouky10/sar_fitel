@@ -19,9 +19,15 @@ body {
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
-    background-color: rgba(248, 248, 248, 1);
+    background-color: rgba(170, 70, 17, 1);
     z-index: 50;
+    min-width: 100%;
 }
+
+.navbar-default.top_menu .navbar-nav>li>a {
+    color: white;
+}
+
 #intro {
     min-height: 110%;
     background: url("intro.jpg") no-repeat scroll center;
